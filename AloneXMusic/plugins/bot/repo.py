@@ -26,11 +26,11 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/AlonesHeaven"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ALONE_WAS_BOT"),
+          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/THESUKOONLYRIC"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/LxF_MR_NEON"),
           ],
                [
-                InlineKeyboardButton("𝗔𝗟𝗢𝗡𝗘 𝗡𝗘𝗧𝗪𝗢𝗥𝗞", url=f"https://t.me/AloneXBots"),
+                InlineKeyboardButton("𝗔𝗟𝗢𝗡𝗘 𝗡𝗘𝗧𝗪𝗢𝗥𝗞", url=f"https://t.me/neonupdate"),
 
 ],
 [
@@ -62,14 +62,14 @@ InlineKeyboardButton("𝗥𝗪 𝗦𝗧𝗥𝗜𝗣𝗘", url=f"https://github.c
 InlineKeyboardButton("𝗥𝗪 𝗗𝗘𝗣𝗟𝗢𝗬", url=f"https://github.com/TeamAloneOp/AloneXRailway"),
 ],
 [
-InlineKeyboardButton("𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗕𝗢𝗧", url=f"https://t.me/AloneXMusicBot"),
+InlineKeyboardButton("𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗕𝗢𝗧", url=f"https://t.me/Love_X_Music_BoT"),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/70402820cd4afd8ea4c13.jpg",
+        photo="https://graph.org/file/5b01eac7d295f8be0b867.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
